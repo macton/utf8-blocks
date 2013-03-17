@@ -1,4 +1,5 @@
 // Scrape descriptions from fileformat.info
+// See: http://www.fileformat.info/info/unicode/block/index.htm
 // Replacing previous data collected. This is a more complete source.
 // This script is only here for archival purposes. Not maintained.
 // If you run this script yourself, expect it to:
