@@ -1,0 +1,18 @@
+# Unicode Characters in the Katakana Phonetic Extensions Block
+# Source: http://www.fileformat.info/info/unicode/block/katakana_phonetic_extensions/list.htm
+"U+31F0", "\xe3\x87\xb0", "KATAKANA LETTER SMALL KU (U+31F0)"
+"U+31F1", "\xe3\x87\xb1", "KATAKANA LETTER SMALL SI (U+31F1)"
+"U+31F2", "\xe3\x87\xb2", "KATAKANA LETTER SMALL SU (U+31F2)"
+"U+31F3", "\xe3\x87\xb3", "KATAKANA LETTER SMALL TO (U+31F3)"
+"U+31F4", "\xe3\x87\xb4", "KATAKANA LETTER SMALL NU (U+31F4)"
+"U+31F5", "\xe3\x87\xb5", "KATAKANA LETTER SMALL HA (U+31F5)"
+"U+31F6", "\xe3\x87\xb6", "KATAKANA LETTER SMALL HI (U+31F6)"
+"U+31F7", "\xe3\x87\xb7", "KATAKANA LETTER SMALL HU (U+31F7)"
+"U+31F8", "\xe3\x87\xb8", "KATAKANA LETTER SMALL HE (U+31F8)"
+"U+31F9", "\xe3\x87\xb9", "KATAKANA LETTER SMALL HO (U+31F9)"
+"U+31FA", "\xe3\x87\xba", "KATAKANA LETTER SMALL MU (U+31FA)"
+"U+31FB", "\xe3\x87\xbb", "KATAKANA LETTER SMALL RA (U+31FB)"
+"U+31FC", "\xe3\x87\xbc", "KATAKANA LETTER SMALL RI (U+31FC)"
+"U+31FD", "\xe3\x87\xbd", "KATAKANA LETTER SMALL RU (U+31FD)"
+"U+31FE", "\xe3\x87\xbe", "KATAKANA LETTER SMALL RE (U+31FE)"
+"U+31FF", "\xe3\x87\xbf", "KATAKANA LETTER SMALL RO (U+31FF)"

@@ -4,24 +4,21 @@ Each Unicode block with unicode code point, utf8 encoding and description
 See also: <http://en.wikipedia.org/wiki/Unicode#Standardized_subsets>
 
 ## Format
-Files are ASCII formatted and line based. (Empty lines should be ignored.)
-Anything after a # is a comment
+Files are ASCII formatted and line based. 
+
+* Comment lines begin with #
+* Empty lines should be ignored
+* Non ASCII text in description formated with javascript-style unicode escape ("\uXXXX")
 
 Lines are divided into three comma-separated fields:
 
 1. Unicode code point ("U+XXXX")
-2. UTF-8 value, formated in javascript-style hex bytes ("\xXX\xXX")
+2. UTF-8 value, formated as one to four javascript-style hex bytes ("\xXX\xXX")
 3. Description
 
-## TODO 
-Missing pages:
+Example:
+    "U+002D", "\x2d", "HYPHEN-MINUS (U+002D)"
 
-* CJK Unified Ideographs Extension A.txt
-* CJK Unified Ideographs Extension B.txt
-* CJK Unified Ideographs Extension C.txt
-* CJK Unified Ideographs Extension D.txt
-* CJK Unified Ideographs.txt
-* Cuneiform Numbers and Punctuation.txt
-* Hangul Syllables.txt
-* Shavian.txt
+Example with unicode escape in description block:
+    "U+341C", "\xe3\x90\x9c", "(same as \u4EC7) an enemy, enmity, hatred, to hate, a rival, a match (U+341C)"
 

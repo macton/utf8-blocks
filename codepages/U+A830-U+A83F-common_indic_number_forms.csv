@@ -1,0 +1,12 @@
+# Unicode Characters in the Common Indic Number Forms Block
+# Source: http://www.fileformat.info/info/unicode/block/common_indic_number_forms/list.htm
+"U+A830", "\xea\xa0\xb0", "NORTH INDIC FRACTION ONE QUARTER (U+A830)"
+"U+A831", "\xea\xa0\xb1", "NORTH INDIC FRACTION ONE HALF (U+A831)"
+"U+A832", "\xea\xa0\xb2", "NORTH INDIC FRACTION THREE QUARTERS (U+A832)"
+"U+A833", "\xea\xa0\xb3", "NORTH INDIC FRACTION ONE SIXTEENTH (U+A833)"
+"U+A834", "\xea\xa0\xb4", "NORTH INDIC FRACTION ONE EIGHTH (U+A834)"
+"U+A835", "\xea\xa0\xb5", "NORTH INDIC FRACTION THREE SIXTEENTHS (U+A835)"
+"U+A836", "\xea\xa0\xb6", "NORTH INDIC QUARTER MARK (U+A836)"
+"U+A837", "\xea\xa0\xb7", "NORTH INDIC PLACEHOLDER MARK (U+A837)"
+"U+A838", "\xea\xa0\xb8", "NORTH INDIC RUPEE MARK (U+A838)"
+"U+A839", "\xea\xa0\xb9", "NORTH INDIC QUANTITY MARK (U+A839)"

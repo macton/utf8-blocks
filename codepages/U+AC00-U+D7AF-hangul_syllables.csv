@@ -1,0 +1,4 @@
+# Unicode Characters in the Hangul Syllables Block
+# Source: http://www.fileformat.info/info/unicode/block/hangul_syllables/list.htm
+"U+AC00", "\xea\xb0\x80", "<Hangul Syllable, First> (U+AC00)"
+"U+D7A3", "\xed\x9e\xa3", "<Hangul Syllable, Last> (U+D7A3)"

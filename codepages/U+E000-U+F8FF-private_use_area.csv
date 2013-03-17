@@ -1,0 +1,4 @@
+# Unicode Characters in the Private Use Area Block
+# Source: http://www.fileformat.info/info/unicode/block/private_use_area/list.htm
+"U+E000", "\xee\x80\x80", "<Private Use, First> (U+E000)"
+"U+F8FF", "\xef\xa3\xbf", "<Private Use, Last> (U+F8FF)"

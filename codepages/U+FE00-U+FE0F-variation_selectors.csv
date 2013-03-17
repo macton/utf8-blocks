@@ -1,0 +1,18 @@
+# Unicode Characters in the Variation Selectors Block
+# Source: http://www.fileformat.info/info/unicode/block/variation_selectors/list.htm
+"U+FE00", "\xef\xb8\x80", "VARIATION SELECTOR-1 (U+FE00)"
+"U+FE01", "\xef\xb8\x81", "VARIATION SELECTOR-2 (U+FE01)"
+"U+FE02", "\xef\xb8\x82", "VARIATION SELECTOR-3 (U+FE02)"
+"U+FE03", "\xef\xb8\x83", "VARIATION SELECTOR-4 (U+FE03)"
+"U+FE04", "\xef\xb8\x84", "VARIATION SELECTOR-5 (U+FE04)"
+"U+FE05", "\xef\xb8\x85", "VARIATION SELECTOR-6 (U+FE05)"
+"U+FE06", "\xef\xb8\x86", "VARIATION SELECTOR-7 (U+FE06)"
+"U+FE07", "\xef\xb8\x87", "VARIATION SELECTOR-8 (U+FE07)"
+"U+FE08", "\xef\xb8\x88", "VARIATION SELECTOR-9 (U+FE08)"
+"U+FE09", "\xef\xb8\x89", "VARIATION SELECTOR-10 (U+FE09)"
+"U+FE0A", "\xef\xb8\x8a", "VARIATION SELECTOR-11 (U+FE0A)"
+"U+FE0B", "\xef\xb8\x8b", "VARIATION SELECTOR-12 (U+FE0B)"
+"U+FE0C", "\xef\xb8\x8c", "VARIATION SELECTOR-13 (U+FE0C)"
+"U+FE0D", "\xef\xb8\x8d", "VARIATION SELECTOR-14 (U+FE0D)"
+"U+FE0E", "\xef\xb8\x8e", "VARIATION SELECTOR-15 (U+FE0E)"
+"U+FE0F", "\xef\xb8\x8f", "VARIATION SELECTOR-16 (U+FE0F)"

@@ -1,4 +1,6 @@
 // convert file with <codepoint, description> to <codepoint, utf8, description>
+// e.g. 
+// $ node encode_utf8.js "Ancient Symbols.txt"
 
 var filePath = process.argv[2];
 var fs       = require('fs');

@@ -1,0 +1,9 @@
+# Unicode Characters in the Combining Half Marks Block
+# Source: http://www.fileformat.info/info/unicode/block/combining_half_marks/list.htm
+"U+FE20", "\xef\xb8\xa0", "COMBINING LIGATURE LEFT HALF (U+FE20)"
+"U+FE21", "\xef\xb8\xa1", "COMBINING LIGATURE RIGHT HALF (U+FE21)"
+"U+FE22", "\xef\xb8\xa2", "COMBINING DOUBLE TILDE LEFT HALF (U+FE22)"
+"U+FE23", "\xef\xb8\xa3", "COMBINING DOUBLE TILDE RIGHT HALF (U+FE23)"
+"U+FE24", "\xef\xb8\xa4", "COMBINING MACRON LEFT HALF (U+FE24)"
+"U+FE25", "\xef\xb8\xa5", "COMBINING MACRON RIGHT HALF (U+FE25)"
+"U+FE26", "\xef\xb8\xa6", "COMBINING CONJOINING MACRON (U+FE26)"

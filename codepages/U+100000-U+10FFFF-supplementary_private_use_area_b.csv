@@ -1,0 +1,4 @@
+# Unicode Characters in the Supplementary Private Use Area-B Block
+# Source: http://www.fileformat.info/info/unicode/block/supplementary_private_use_area_b/list.htm
+"U+100000", "\xe1\x80\x80\x30\x30", "<Plane 16 Private Use, First> (U+100000)"
+"U+10FFFD", "\xe1\x83\xbf\x46\x44", "<Plane 16 Private Use, Last> (U+10FFFD)"

@@ -1,0 +1,13 @@
+# Unicode Characters in the Optical Character Recognition Block
+# Source: http://www.fileformat.info/info/unicode/block/optical_character_recognition/list.htm
+"U+2440", "\xe2\x91\x80", "OCR HOOK (U+2440)"
+"U+2441", "\xe2\x91\x81", "OCR CHAIR (U+2441)"
+"U+2442", "\xe2\x91\x82", "OCR FORK (U+2442)"
+"U+2443", "\xe2\x91\x83", "OCR INVERTED FORK (U+2443)"
+"U+2444", "\xe2\x91\x84", "OCR BELT BUCKLE (U+2444)"
+"U+2445", "\xe2\x91\x85", "OCR BOW TIE (U+2445)"
+"U+2446", "\xe2\x91\x86", "OCR BRANCH BANK IDENTIFICATION (U+2446)"
+"U+2447", "\xe2\x91\x87", "OCR AMOUNT OF CHECK (U+2447)"
+"U+2448", "\xe2\x91\x88", "OCR DASH (U+2448)"
+"U+2449", "\xe2\x91\x89", "OCR CUSTOMER ACCOUNT NUMBER (U+2449)"
+"U+244A", "\xe2\x91\x8a", "OCR DOUBLE BACKSLASH (U+244A)"

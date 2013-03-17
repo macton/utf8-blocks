@@ -1,0 +1,18 @@
+# Unicode Characters in the Supplemental Arrows-A Block
+# Source: http://www.fileformat.info/info/unicode/block/supplemental_arrows_a/list.htm
+"U+27F0", "\xe2\x9f\xb0", "UPWARDS QUADRUPLE ARROW (U+27F0)"
+"U+27F1", "\xe2\x9f\xb1", "DOWNWARDS QUADRUPLE ARROW (U+27F1)"
+"U+27F2", "\xe2\x9f\xb2", "ANTICLOCKWISE GAPPED CIRCLE ARROW (U+27F2)"
+"U+27F3", "\xe2\x9f\xb3", "CLOCKWISE GAPPED CIRCLE ARROW (U+27F3)"
+"U+27F4", "\xe2\x9f\xb4", "RIGHT ARROW WITH CIRCLED PLUS (U+27F4)"
+"U+27F5", "\xe2\x9f\xb5", "LONG LEFTWARDS ARROW (U+27F5)"
+"U+27F6", "\xe2\x9f\xb6", "LONG RIGHTWARDS ARROW (U+27F6)"
+"U+27F7", "\xe2\x9f\xb7", "LONG LEFT RIGHT ARROW (U+27F7)"
+"U+27F8", "\xe2\x9f\xb8", "LONG LEFTWARDS DOUBLE ARROW (U+27F8)"
+"U+27F9", "\xe2\x9f\xb9", "LONG RIGHTWARDS DOUBLE ARROW (U+27F9)"
+"U+27FA", "\xe2\x9f\xba", "LONG LEFT RIGHT DOUBLE ARROW (U+27FA)"
+"U+27FB", "\xe2\x9f\xbb", "LONG LEFTWARDS ARROW FROM BAR (U+27FB)"
+"U+27FC", "\xe2\x9f\xbc", "LONG RIGHTWARDS ARROW FROM BAR (U+27FC)"
+"U+27FD", "\xe2\x9f\xbd", "LONG LEFTWARDS DOUBLE ARROW FROM BAR (U+27FD)"
+"U+27FE", "\xe2\x9f\xbe", "LONG RIGHTWARDS DOUBLE ARROW FROM BAR (U+27FE)"
+"U+27FF", "\xe2\x9f\xbf", "LONG RIGHTWARDS SQUIGGLE ARROW (U+27FF)"

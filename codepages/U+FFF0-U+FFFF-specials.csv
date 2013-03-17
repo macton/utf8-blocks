@@ -1,0 +1,7 @@
+# Unicode Characters in the Specials Block
+# Source: http://www.fileformat.info/info/unicode/block/specials/list.htm
+"U+FFF9", "\xef\xbf\xb9", "INTERLINEAR ANNOTATION ANCHOR (U+FFF9)"
+"U+FFFA", "\xef\xbf\xba", "INTERLINEAR ANNOTATION SEPARATOR (U+FFFA)"
+"U+FFFB", "\xef\xbf\xbb", "INTERLINEAR ANNOTATION TERMINATOR (U+FFFB)"
+"U+FFFC", "\xef\xbf\xbc", "OBJECT REPLACEMENT CHARACTER (U+FFFC)"
+"U+FFFD", "\xef\xbf\xbd", "REPLACEMENT CHARACTER (U+FFFD)"
