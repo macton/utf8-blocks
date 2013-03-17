@@ -30,24 +30,24 @@ function hex_encode( s ) {
 }
 
 fs.readFile( filePath, function (err, data) {
-	var lines     = data.toString().split('\n');
-	var lineCount = lines.length;
-	var i;
+  var lines     = data.toString().split('\n');
+  var lineCount = lines.length;
+  var i;
   for (i=0;i<lineCount;i++) {
-		var line         = lines[i];
+    var line         = lines[i];
     var commentStart = line.indexOf('#');
     var strippedLine = ( commentStart >= 0 ) ? line.slice(0,commentStart) : line;
     var trimmedLine  = strippedLine.trim();
-		if ( trimmedLine.length > 0 ) {
-			var fields      = trimmedLine.split(',');
+    if ( trimmedLine.length > 0 ) {
+      var fields      = trimmedLine.split(',');
       var codePoint   = fields[0].trim();
       var description = fields[1].trim();
-			var utf16       = codePoint.replace(/U\+/i,'\\u');
-			var literal     = unquote_string( utf16 );
-			var utf8        = encode_utf8( literal );
-			var utf8_hex    = hex_encode( utf8 );
+      var utf16       = codePoint.replace(/U\+/i,'\\u');
+      var literal     = unquote_string( utf16 );
+      var utf8        = encode_utf8( literal );
+      var utf8_hex    = hex_encode( utf8 );
 
-			console.log( codePoint + ', ' + utf8_hex + ', ' + description );
-		}
-	}
+      console.log( codePoint + ', ' + utf8_hex + ', ' + description );
+    }
+  }
 });
