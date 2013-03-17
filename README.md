@@ -4,8 +4,8 @@ Each Unicode block with unicode code point, utf8 encoding and description
 See also: <http://en.wikipedia.org/wiki/Unicode#Standardized_subsets>
 
 ## Format
-Files is line based. Empty lines should be ignored.
-Anything after a `# is a comment
+Files are ASCII formatted and line based. (Empty lines should be ignored.)
+Anything after a # is a comment
 
 Lines are divided into three comma-separated fields:
 
