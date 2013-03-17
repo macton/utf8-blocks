@@ -17,8 +17,10 @@ Lines are divided into three comma-separated fields:
 3. Description
 
 Example:
+
     "U+002D", "\x2d", "HYPHEN-MINUS (U+002D)"
 
 Example with unicode escape in description block:
+
     "U+341C", "\xe3\x90\x9c", "(same as \u4EC7) an enemy, enmity, hatred, to hate, a rival, a match (U+341C)"
 
