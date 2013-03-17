@@ -7,7 +7,8 @@ See also: <http://en.wikipedia.org/wiki/Unicode#Standardized_subsets>
 Files are ASCII formatted and line based. 
 
 * Comment lines begin with #
-* Empty lines should be ignored
+* Empty lines should be ignored (although there are none I'm aware of)
+* UNIX-style line endings ("\n")
 * Non ASCII text in description formated with javascript-style unicode escape ("\uXXXX")
 
 Lines are divided into three comma-separated fields:
