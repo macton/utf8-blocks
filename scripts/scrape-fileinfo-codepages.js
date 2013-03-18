@@ -6,11 +6,12 @@
 //     (a) take a stupidly long time
 //     (b) not provide a lot of feedback when ridiculously slow transforms are being done.
 
-var TextInfo    = '\033[94m';
-var TextSuccess = '\033[92m';
-var TextWarning = '\033[93m';
-var TextError   = '\033[91m';
-var TextReset   = '\033[0m';
+var kTextInfo    = '\033[94m';
+var kTextSuccess = '\033[92m';
+var kTextWarning = '\033[93m';
+var kTextError   = '\033[91m';
+var kTextReset   = '\033[0m';
+var kRetryCount  = 10;
 
 var request = require('request');
 var jsdom   = require('jsdom');
@@ -75,16 +76,16 @@ function is_valid_code_point( codePoint ) {
 
 function getSource( pageName, pageUri, pageStart, pageEnd, retryCount ) {
   if ( !is_valid_code_point( pageStart )  ) {
-    console.log( TextInfo + 'SKIP ' + pageUri + ' does not start at valid code point.' + TextReset );
+    console.log( kTextInfo + 'SKIP ' + pageUri + ' does not start at valid code point.' + kTextReset );
     return;
   }
   request({ uri:pageUri }, function (error, response, body) {
     var statusCode = ( response && response.statusCode ) ? response.statusCode : '<NORESPONSE>';
     if (error && statusCode !== 200) {
-      if ( retryCount == 3 ) {   
-        console.log( TextError + 'ERROR: Failed ' + statusCode + ' retreiving ' + pageUri + TextReset );
+      if ( retryCount == kRetryCount ) {   
+        console.log( kTextError + 'ERROR: Failed ' + statusCode + ' retreiving ' + pageUri + kTextReset );
       } else {
-        console.log( TextWarning + 'WARNING: Retrying due to ' + statusCode + ' retreiving ' + pageUri + TextReset );
+        console.log( kTextWarning + 'WARNING: Retrying due to ' + statusCode + ' retreiving ' + pageUri + kTextReset );
         getSource( pageName, pageUri, pageStart, pageEnd, retryCount+1 );
       }
       return;
@@ -97,10 +98,10 @@ function getSource( pageName, pageUri, pageStart, pageEnd, retryCount ) {
       ]
       }, function (err, window) {
         if ( err ) {
-          if ( retryCount == 3 ) {
-            console.log( TextError + 'ERROR: Failed to parse ' + pageUri + ' ' + JSON.stringify(err) + TextReset );
+          if ( retryCount == kRetryCount ) {
+            console.log( kTextError + 'ERROR: Failed to parse ' + pageUri + ' ' + JSON.stringify(err) + kTextReset );
           } else {
-            console.log( TextWarning + 'WARNING: Retrying ' + pageUri + ' due to ' + JSON.stringify(err) + TextReset );
+            console.log( kTextWarning + 'WARNING: Retrying ' + pageUri + ' due to ' + JSON.stringify(err) + kTextReset );
             getSource( pageName, pageUri, pageStart, pageEnd, retryCount+1 );
           }
           return;
@@ -112,7 +113,7 @@ function getSource( pageName, pageUri, pageStart, pageEnd, retryCount ) {
 
         stream.once('open', function(fd) {
           if ( retryCount > 0 ) {
-            console.log( TextInfo + 'Retrieved ' + pageUri + ' (' + csvName + ') retryCount=' + retryCount + TextReset );
+            console.log( kTextInfo + 'Retrieved ' + pageUri + ' (' + csvName + ') retryCount=' + retryCount + kTextReset );
           } else {
             console.log( 'Retrieved ' + pageUri + ' (' + csvName + ')' );
           }
@@ -142,7 +143,7 @@ var codePageIndexUri = 'http://www.fileformat.info/info/unicode/block/index.htm'
 request({ uri:codePageIndexUri }, function (error, response, body) {
   var statusCode = ( response && response.statusCode ) ? response.statusCode : '<NORESPONSE>';
   if (error && statusCode !== 200) {
-    console.log( TextError + 'ERROR: ' + statusCode + ' retreiving ' + pageUri + TextReset );
+    console.log( kTextError + 'ERROR: ' + statusCode + ' retreiving ' + pageUri + kTextReset );
     return;
   }
   console.log('Retrieved page index.');
@@ -164,7 +165,7 @@ request({ uri:codePageIndexUri }, function (error, response, body) {
         var parent     = $(value).closest('td'); 
         var start      = parent.next(); 
         var end        = start.next(); 
-        getSource( name, 'http://www.fileformat.info/info/unicode/block/' + name + '/list.htm', start.text(), end.text() );
+        getSource( name, 'http://www.fileformat.info/info/unicode/block/' + name + '/list.htm', start.text(), end.text(), 0 );
       }); 
     });
 });
